@@ -1,0 +1,332 @@
+* {
+	margin: 0;
+}
+
+body {
+	background-color: #A6D2DB;	
+}
+
+/* Navigation Logo*/
+
+.fa {
+	position: relative;
+	top: 23px;
+	left: -150px;
+	color: red;
+}
+
+body nav > a {
+	float: left;
+	font-family: 'Bitter', serif;
+	font-weight: 700;
+	padding-left: 100px;
+	padding-top: 20px;
+	text-decoration: none;
+	color: #39484A;
+}
+
+/* Navigation Links */
+
+body nav ul {
+	float: right;
+	padding-top: 28px;
+	padding-right: 65px;
+}
+
+body nav ul li {
+	display: inline-block;
+}
+
+body nav ul li a {
+	color: #39484A;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 13px;
+	text-decoration: none;
+	padding-top: 20px;
+	padding-right: 20px;
+}
+
+/* Call to Action */
+
+#cta {
+	position: relative;
+	top: 200px;
+	font-family: 'Bitter', serif;
+	font-weight: 700;
+	font-size: 22px;
+	color: #FFFFFF;
+}
+
+#cta h1 {
+	padding-left: 250px;
+}
+#cta h1 #top {
+	position: relative;
+	top: -50px;
+}
+
+#cta h1 #bottom {
+	position: relative;
+	top: -5px;
+	left: -330px;
+}
+
+#cta h1 #bottom span {
+	color: red;
+}
+
+#cta #flatmac {
+	position: relative;
+	top: -160px;
+	right: -700px;
+}
+
+/* Recent Works Section */
+
+}
+.Row {
+    display: table;
+    text-align: center;
+    position: fixed;
+    top: 600px;
+}
+
+.Column img {
+	height: 100px;
+	padding-top: 80px;
+	padding-left: 60px;
+	padding-right: 60px;
+	margin: 0;
+}
+
+.Column2 img {
+	height: 200px;
+	padding-top: 80px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: 0;
+}
+
+.Column {
+    display: table-cell;
+    display: inline-block;
+}
+
+.Column2 {
+    display: table-cell;
+    display: inline-block;
+}
+
+
+.wrapper {
+	position: relative;
+	top: 100px;
+	padding-bottom: 100px;
+	text-align: center;
+	margin-bottom: 60px;
+	clear: both;
+	background-color: #FFFFFF;
+}
+
+.recentworks h2 {
+	font-family: 'Bitter', serif;
+	font-weight: 400;
+	font-size: 28px;
+	padding-top: 40px;
+	position: relative;
+	top: 50px;
+}
+
+.paragraphset {
+	padding-top: 70px;
+	font-family: 'Bitter', serif;
+	font-weight: 300;
+	font-size: 16px;
+	padding-bottom: 50px;
+}
+
+.wrapper1 {
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #9BD5A5;
+}
+
+.wrapper1 .recentworks ul li {
+	text-decoration: none;
+}
+
+.recentworks {
+	font-family: 'Bitter', serif;
+	padding-bottom: 100px;
+}
+
+.recentworks li {
+	display: inline-block;
+	padding-right: 30px;
+}
+
+.recentworks a {
+	text-decoration: none;
+	color: #FFFFFF;
+	padding: 5px;
+	border: 1px solid #FFFFFF;
+	border-radius: 3px;
+}
+
+.recentworks h4 a {
+	position: relative;
+	top:50px;
+	border: 1px solid #FFFFFF;
+	background-color: #FFFFFF;
+	color: #000000;
+	padding: 5px;
+}
+
+/* Templates Section */
+
+.templates {
+	background-color: #FFFFFF;
+	font-family: 'Bitter', serif;
+	font-weight: 700;
+
+}
+
+.templates #img1 {
+	width: 225px;
+	margin-left: 250px;
+	margin-top: 100px;
+}
+
+.templates h3 {
+	padding-bottom: 20px;
+}
+
+.templates p {
+	font-size: 14px;
+}
+.templates h3, .templates p {
+	margin-left: 530px;
+	position: relative;
+	top: -200px;
+	margin-right: 350px;
+}
+
+.templates h4 a {
+	border: 1px solid gray;
+	background-color: gray;
+	font-weight: 100;
+	text-decoration: none;
+	padding: 5px;
+	color: #FFFFFF;
+	position: relative;
+	left: 530px;
+	top: -180px;
+}
+
+.templates #img2 {
+	position: relative;
+	left: 750px;
+	top: -50px;
+}
+
+.secondset {
+	position: relative;
+	left: -270px;
+	top: -100px;
+}
+
+.secondset h4 a {
+	position: relative;
+	left: 890px;
+}
+
+/* TEAM SECTION */
+
+.team {
+	text-align: center;
+	background-color: #E1B8C8;
+	width: 100%;
+}
+
+.team h2 {
+	padding-top: 50px;
+	color: #FFFFFF;
+	font-size: 28px;
+}
+
+.team p {
+	color: #FFFFFF;
+	font-size: 16px;
+	position: relative;
+	top: -60px;
+	left: -85px;
+}
+
+.team .Row {
+	position: relative;
+	top: -120px;
+}
+
+.team .Row h1 {
+	color: #FFFFFF;
+	padding-top: 20px;
+}
+
+.recentposts {
+	text-align: center;
+	background-color: #B4D4DF;
+}
+
+.recentposts {
+	padding-top: 50px;
+	color: #FFFFFF;
+	font-size: 28px;
+}
+
+.recentposts .Row {
+	position: relative;
+	top: -100px;
+}
+
+.recentposts p {
+	position: relative;
+	top: -40px;
+	left: -80px;
+}
+
+/* CONTACT US SECTION */
+
+.contactus {
+	background-color: #3C3C3C;
+	text-align: center;
+	height: 500px;
+}
+
+.contactus h2 {
+	color: #FFFFFF;
+	font-size: 28px;
+	padding-top: 25px;
+}
+
+.contactus p {
+	top: 20px;
+	left: -70px;
+	color: #FFFFFF;
+}
+
+.contactus form {
+	padding-top: 50px;
+}
+
+.contactus form input {
+	padding-top: 20px;
+	border-radius: 8px;
+}
+
+input #messagebox {
+	padding-bottom: 25px;
+}
+.contactus form input #submit {
+	padding-top : 0px;
+}
